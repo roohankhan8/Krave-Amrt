@@ -7,7 +7,7 @@ from django.http import HttpResponse
 def index(request):
     return render(request, 'index.html')
 def about(request):
-    return HttpResponse('Hello about')
+    return render(request, 'about.html')
 def contact(request):
     return HttpResponse('Hello contact')
 def product(request):

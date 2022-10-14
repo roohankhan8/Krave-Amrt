@@ -1,0 +1,8 @@
+{% extends 'basic.html' %} {% block title %}{% endblock title %}
+{% block body %} {% load static %}
+
+<script>
+  document.getElementById("home").classList.remove("active");
+  document.getElementById("about").classList.add("active");
+</script>
+{% endblock body %}
